@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Page</title>
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: impact, fantasy;
+        background-image: url('image.jpg'); /* Replace 'background.jpg' with your image path */
+        background-size: cover;
+        background-position: center;
+        height: 100vh; /* Ensure full viewport height */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; /* Align items in a column */
+    }
+    .content {
+    text-align: center;
+    color: rgba(7, 38, 218, 0.897);
+    background:rgba(104, 103, 103, 0) ; /* Semi-transparent background for readability */
+    padding: 20px;
+    border-radius: 10px;
+}
+.textbox {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    font-size: 16px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+.button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    background-color: #503fec; /* Green */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+</style>
+</head>
+<body>
+    <div class="content">
+        <h1>welcome to my restaurant</h1>
+        <form action="#">
+            <input type="text" class="textbox" placeholder="Email Address...">
+            <br>
+            <input type="password" class="textbox" placeholder="password">
+            <br>
+            <button type="submit" class="button">Submit</button>
+        </form>
+    
+   </body> 
+</body>
+</html>
